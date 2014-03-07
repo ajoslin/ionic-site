@@ -2,7 +2,7 @@
 layout: docs_0.9.0
 active: javascript
 title: "ion-content"
-header_sub_title: "ionContent"
+header_sub_title: "Directive in module ionic"
 doc: "ionContent"
 ---
 
@@ -25,9 +25,7 @@ Ionic's custom Scroll View, or the built in overflow scorlling of the browser.
 
 While we recommend using the custom Scroll features in Ionic in most cases, sometimes (for performance reasons) only the browser's native overflow scrolling will suffice, and so we've made it easy to toggle between the Ionic scroll implementation and overflow scrolling.
 
-When using the Ionic scroll features, you'll get pull-to-refresh, customizable scroll mechanics (like bounce easing, momentum acceleration, etc.) which aligns Ionic with native SDKs that give you access to scroll behavior. You'll also get events while in a momentum scroll, which -webkit-overflow-scrolling: touch will not, making it of limited use in real applications.
-
-Also, we are working on virtual list rendering which will only work when using Ionic's scroll view. That is on the upcoming roadmap.
+You can implement pull-to-refresh with the <a href="/docs/angularjs/ionic.directive:ionRefresher">ionRefresher</a> directive, and infinite scrolling with the <a href="/docs/angularjs/api/ionic/directive/ionInfiniteScroll">ionInfiniteScroll</a> directive.
 
 
 
@@ -40,7 +38,6 @@ Also, we are working on virtual list rendering which will only work when using I
 ## Usage
   
     
-* as element:
 
   ```html
   <ion-content
@@ -60,6 +57,9 @@ Also, we are working on virtual list rendering which will only work when using I
   ```
     
   
+
+## API
+
 <table class="table">
   <thead>
     <tr>
