@@ -1,6 +1,6 @@
 ---
 layout: docs_0.9.0
-active: angularjs
+active: javascript
 title: AngularJS Extensions
 header_sub_title: Extend Ionic even further with the power of AngularJS
 api_version: "0.9.0"
