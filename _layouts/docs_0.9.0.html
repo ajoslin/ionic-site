@@ -134,24 +134,35 @@
 
 
             <!-- AngularJS -->
-            <ul class="nav left-menu{% if page.active == "angularjs" %} active-menu{% endif %}">
+            <ul class="nav left-menu{% if page.active == "javascript" %} active-menu{% endif %}">
               <li class="menu-title">
-                <a href="{{ site.docs_0_9_0 }}/controllers/">Controllers</a>
+                <a href="{{ site.docs_0_9_0 }}/angularjs/">
+                  Javascript
+                </a>
               </li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/">Overview</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/content/">Content</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/header/">Header</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/controllers/view-state/">Views and Navigation</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/list/">List</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/controllers/tab-bar/">Tab Bar</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/controllers/side-menu/">Side Menu</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/slide-box/">Slide Box</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/modal/">Modal</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/action-sheet/">Action Sheet</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/views/loading/">Loading</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/utils/gestures/">Gestures</a></li>
-              <li><a href="{{ site.docs_0_9_0 }}/angularjs/utils/platform/">Platform</a></li>
-              <li><a href="/examples/code/">Code Samples</a></li>
+              
+                
+                  <li class="menu-subsection">
+                    directive
+                  </li>
+                
+              
+                
+                  <li class="menu-item{% if page.doc == "ionContent" %} active{% endif %}">
+                    <a href="{{ site.docs_0_9_0 }}/angularjs/api/ionic/directive/ionContent">
+                      ionContent
+                    </a>
+                  </li>
+                
+              
+                
+                  <li class="menu-item{% if page.doc == "ionInfiniteScroll" %} active{% endif %}">
+                    <a href="{{ site.docs_0_9_0 }}/angularjs/api/ionic/directive/ionInfiniteScroll">
+                      ionInfiniteScroll
+                    </a>
+                  </li>
+                
+              
             </ul>
 
             <!-- Tutorials -->
@@ -179,7 +190,7 @@
             </ul>
 
           </div>
-          
+
         </div>
 
         <div class="col-md-10 col-sm-9 main-content">
@@ -187,7 +198,7 @@
         </div>
 
       </div>
-      
+
     </div>
 
     {% if page.active == "docs-home" %}
@@ -233,7 +244,8 @@
             </p>
           </div>
 
-          <div class="col-sm-6 col-b">
+          <div class="col-sm-6 c100 13690  100 13690    0     0  25015      0 --:--:-- --:--:-- --:--:-- 24981
+ol-b">
             <h4>
               <a href="http://forum.ionicframework.com/">Community Forum <span class="icon ion-arrow-right-c"></span></a>
             </h4>
@@ -277,10 +289,19 @@
       </div>
 
     {% endif %}
-	
+
     {% include footer.html %}
 
     {% include base_scripts.html %}
 
+    <style>
+    .left-menu li.menu-subsection {
+      margin-left: 1em;
+      font-weight: bold;
+    }
+    .left-menu li.menu-item {
+      margin-left: 2em;
+    }
+    </style>
   </body>
 </html>
