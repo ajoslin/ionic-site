@@ -1,0 +1,80 @@
+---
+layout: default
+title: Getting Started with Ionic
+body_css: getting-started-page
+header_title: Getting Started with Ionic
+header_sub_title: Build native mobile apps in minutes with the web tech you know and love. Save time. Build more.
+active: getting-started
+news: Questions? Head over to our <a href="http://forum.ionicframework.com/">Community Forum</a> to chat with others using the framework.
+---
+
+<iframe style="display: block; margin: 10px auto 80px auto;" src="//player.vimeo.com/video/86064716" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<div class="getting-started-row">
+
+
+  <div class="num">
+    <img src="/img/docs/symbols/step-1@2x.png" width="52" height="52">
+  </div>
+  <div class="desc">
+    <h3>Install Ionic</h3>
+    <p>
+    First, install <a href="http://nodejs.org/">Node.js</a>. Then, install the latest Cordova and Ionic <a href="https://npmjs.org/package/ionic">command-line tools</a>. Follow the <a href="http://cordova.apache.org/docs/en/3.3.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide">Android</a> and <a href="http://cordova.apache.org/docs/en/3.3.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide">iOS</a> platform guides to install required platform dependencies.
+    </p>
+{% highlight bash %}
+
+$ npm install -g cordova
+$ npm install -g ionic
+
+{% endhighlight %}
+  </div>
+
+</div>
+
+<div class="getting-started-row">
+
+  <div class="num">
+    <img src="/img/docs/symbols/step-2@2x.png" width="52" height="52">
+  </div>
+  <div class="desc">
+    <h3>Start a project</h3>
+    <p>
+      Create a project with our pre-built <a href="https://github.com/driftyco/ionic-angular-cordova-seed">seed project</a>. 
+      You can also clone the seed project itself, which gives you everything you need to build
+      Ionic apps with Cordova and AngularJS.
+    </p>
+{% highlight bash %}
+
+$ ionic start myApp
+
+{% endhighlight %}
+  </div>
+
+</div>
+
+<div class="getting-started-row">
+
+  <div class="num">
+    <img src="/img/docs/symbols/step-3@2x.png" width="52" height="52">
+  </div>
+  <div class="desc">
+    <h3>Run it</h3>
+    <p>
+      Ionic apps are based on Cordova, so we can use the Cordova utilities to build, test, and deploy our apps, but we
+      provide simple ways to do the same with the ionic utility (substitute ios for android to build for Android):
+    </p>
+{% highlight bash %}
+
+$ cd myApp
+$ ionic platform ios
+$ ionic emulate ios
+$ ionic run ios
+
+{% endhighlight %}
+  </div>
+
+</div>
+
+<div class="getting-started-row">
+  <h3>That's it! To learn more, visit the <a href="/docs/">Ionic Documentation</a> or ask a question on the <a href="http://forum.ionicframework.com/">Forum</a>.</h3>
+</div>

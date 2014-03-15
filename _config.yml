@@ -1,0 +1,26 @@
+# Site Configs
+name: Ionic Framework
+description: The official Ionic Framework blog
+url: http://ionicframework.com/blog
+markdown: redcarpet
+pygments: true
+permalink: /blog/:title
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Default news if the page didnt enter news
+news: First time using Ionic? We recommend reading our <a href="/docs/guide/">Guide</a>, which covers all the basics of setting up an Ionic mobile app.
+
+# Latest Version Config
+latest_download: http://code.ionicframework.com/0.9.27/ionic-v0.9.27.zip
+latest_version: 0.9.27 "salamander"
+latest_release_date: 2014-03-15
+
+# Which version of AngularJS the latest build includes
+included_angular_version: 1.2.12
+
+# Which active Cordova version we recommend
+recommended_cordova_version: 3.3.1
+
+# the primary plunkr to fork
+code_sample_base_url: http://plnkr.co/edit/vD0O9M?p=preview

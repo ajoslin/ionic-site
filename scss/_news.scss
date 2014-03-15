@@ -1,0 +1,36 @@
+
+.news {
+  font-family: "AvenirNextLTPro-Ultlt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  padding-top: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  letter-spacing: -0.03em;
+
+  .container {
+    color: #B6D1FF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  a {
+    color: #fff;
+    opacity: .85;
+    text-decoration: none;
+    padding: 0;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+      opacity: 1;
+    }
+
+    a:visited {
+      color:#fff;
+    }
+  }
+}
